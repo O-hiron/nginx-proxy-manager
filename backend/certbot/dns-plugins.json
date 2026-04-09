@@ -575,6 +575,14 @@
 		"package_name": "certbot-dns-route53",
 		"version": "=={{certbot-version}}"
 	},
+	"sakuracloud": {
+		"credentials": "# さくらのクラウド DNS API 認証情報\n# APIトークンとAPIシークレットを設定してください\ndns_sakuracloud_api_token = 00000000-0000-0000-0000-000000000000\ndns_sakuracloud_api_secret = BASE64_ENCODED_API_SECRET",
+		"dependencies": "",
+		"full_plugin_name": "dns-sakuracloud",
+		"name": "Sakura Cloud DNS",
+		"package_name": "certbot-dns-sakuracloud",
+		"version": "~=5.5.0"
+	},
 	"selectelv2": {
 		"credentials": "dns_selectel_api_v2_account_id = your_account_id\ndns_selectel_api_v2_project_name = your_project\ndns_selectel_api_v2_username = your_username\ndns_selectel_api_v2_password = your_password",
 		"dependencies": "",
