@@ -591,6 +591,14 @@
 		"package_name": "certbot-dns-route53",
 		"version": "=={{certbot-version}}"
 	},
+	"sakuracloud": {
+		"credentials": "dns_sakuracloud_api_token = 0123456789abcdef0123456789abcdef01234567\ndns_sakuracloud_api_secret = 0123456789abcdef0123456789abcdef01234567",
+		"dependencies": "acme=={{certbot-version}}",
+		"full_plugin_name": "dns-sakuracloud",
+		"name": "Sakura Cloud",
+		"package_name": "certbot-dns-sakuracloud",
+		"version": "=={{certbot-version}}"
+	},
 	"selectelv2": {
 		"credentials": "dns_selectel_api_v2_account_id = your_account_id\ndns_selectel_api_v2_project_name = your_project\ndns_selectel_api_v2_username = your_username\ndns_selectel_api_v2_password = your_password",
 		"dependencies": "",
